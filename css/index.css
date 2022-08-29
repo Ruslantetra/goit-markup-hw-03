@@ -204,7 +204,7 @@ p {
     padding-bottom: 94px;
 }
 
-.container-two {
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;  
@@ -241,14 +241,8 @@ p {
 
 /* section 3 */
 .section-three {
-    padding-bottom: 94px;
-}
-
-.container-three {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
     text-align: center;
+    padding-bottom: 94px;
 }
 
 .title-section-three {
@@ -276,7 +270,8 @@ p {
 .section-four {
     background-color: var(--grey-color);
     text-align: center;
-    padding-bottom: 94px;  
+    padding-bottom: 94px;
+    padding-top: 94px;  
 }
 
 .title-section-four {
@@ -284,12 +279,6 @@ p {
     font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;  
-}
-.container-four  {
-    text-align: center;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .ul-section-four {
@@ -331,10 +320,6 @@ p {
     padding-bottom: 60px;
 }
 
-.container-footer {
-    padding-left: 215px;
-}
-
 .logo-footer {
     color: var(--accent-color);
     font-family: var(--secondary-font);
@@ -355,17 +340,14 @@ p {
     font-style: normal;
 }
 
+.address-item .item {
+    margin-bottom: 9px;
+}
+
 .maps {
    color: var(--white-color);
     line-height: 1.71;
     text-decoration: none;
-    margin-bottom: 9px;
-    display: block; 
-}
-
-.tell {
-    display: block;
-    margin-bottom: 9px;
 }
 
 .maps:hover,
@@ -375,7 +357,6 @@ p {
 
 .mailto-tel {
     color: rgba(255, 255, 255, 0.6);
-    
     line-height: 1.71;
     text-decoration: none;
 }
